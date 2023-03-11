@@ -11,7 +11,7 @@ const HomePage = () => {
             Best Video Courses in HINDI, These courses are totally free of cost.
           </p>
           <p>Thousands of people learn from these courses daily.</p>
-          <div className="pt-20 space-x-10">
+          <div className="pt-20 space-x-10 flex flex-col lg:flex-row">
             <Link href="/premiumcourses" className="bg-red-500 p-4">
               <button className="animate-bounce">PREMIUM COURSES</button>
             </Link>
@@ -30,7 +30,7 @@ const HomePage = () => {
         </div>
 
         <div className=" max-w-7xl mx-auto items-center justify-center ">
-          <div className="grid  lg:grid-cols-3 xl:grid-cols-4 gap-y-10 gap-x-2">
+          <div className="grid  lg:grid-cols-3 xl:grid-cols-4 gap-y-10 gap-x-2 border-2 ">
             <LatestVideos
               img="https://i.ytimg.com/vi/m-NGiQlEsMA/hqdefault.jpg"
               title="Sending Attachment with email using Java and Gmail in simple way | Hindi"
